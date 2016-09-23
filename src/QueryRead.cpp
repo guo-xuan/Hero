@@ -212,6 +212,7 @@ void QueryRead::calculateCoverageStatistic(vector<UINT32> * _vector) {
 }
 
 bool QueryRead::isGoodRead() {
+	return true;
 	if (!bIsGoodRead) {
 		return false;
 	}
