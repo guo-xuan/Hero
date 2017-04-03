@@ -1,5 +1,5 @@
 # HERO
-HERE is a multi threaded and multiprocess distributed sequencing read correction tool.
+HERE is a multi-threaded and multiprocess distributed sequencing read correction tool. It calculates the alignments between possible overlapped reads and calls the consensus. The advantage of HERO is that it can correct sequencing errors according to more reliable alignment than K-mers and also can estimate the sequencing coverage.
 
 ### Currrent Version
 * v1.0
