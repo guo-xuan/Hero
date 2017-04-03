@@ -10,7 +10,7 @@ HERO is a multi-threaded and multiprocess distributed sequencing read correction
 2. MPI Library with MPI-3 support i.e. OpenMPI 1.8 and above or cray-mpich/7.4.0 and above. By default the mpic++ wrapper is needed. If you are on a Cray cluster and the wrapper is "CC". You will need to edit the compiler.mk file. Uncomment the line "CC := CC" and comment out "CC := mpic++".  
 
 ### Installation Steps
-1. Download the tarball with compiled executables for Linux with GCC 4.9 and above from  [https://github.com/abiswas-odu/Disco/releases](https://github.com/abiswas-odu/Disco/releases). The code has been tested only on Linux and compiled with GCC4.9 and opemnpi 1.8.4.
+1. Download the tarball with compiled executables for Linux with GCC 4.9 and above from  [https://github.com/guo-xuan/Hero/releases](https://github.com/guo-xuan/Hero/releases). The code has been tested only on Linux and compiled with GCC4.9 and opemnpi 1.8.4.
 2. If you decide to download the source code, use the following commands to build:
   1. OpenMP version "make openmp". This is also the default make option.  
   2. MPI distributed version "make mpi-dist-comp" 
